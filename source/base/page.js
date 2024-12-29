@@ -1,3 +1,7 @@
+import { fullVersion } from "../data/Version.js";
+
+console.log(fullVersion());
+
 function createText(text = "") {
     var textEl = document.createElement('p');
 
